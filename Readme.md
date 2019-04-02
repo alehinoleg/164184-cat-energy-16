@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Олег Алёхин](https://up.htmlacademy.ru/adaptive/16/user/164184).
-* Наставник: `Неизвестно`.
+* Наставник: Антон Попов.
 
 ---
 
