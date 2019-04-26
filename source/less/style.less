@@ -1,20 +1,10 @@
-@font-face {
-  font-family: oswaldmedium;
-  src: url('../fonts/oswaldmedium.woff');
-}
-
-@font-face {
-  font-family: oswaldregular;
-  src: url('../fonts/oswaldregular.woff');
-  font-weight:  normal;
-}
 
 body{
   margin: 0;
   padding: 0;
   font-family: oswaldregular, Arial, sans-serif;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 1.5;
   color: #333333;
   text-transform: uppercase;
   background-color: #f2f2f2;
@@ -24,7 +14,7 @@ a{
   text-decoration: none;
 }
 
-
+@import "fonts.less";
 @import "visually-hidden.less";
 @import "page-header.less";
 @import "logo.less";
@@ -38,3 +28,6 @@ a{
 @import "social.less";
 @import "page-main.less";
 @import "product.less";
+@import "living-example.less";
+@import "address.less";
+@import "program-selection.less";

@@ -8,6 +8,7 @@
 
 .catalog__name {
   margin-top: 0;
+  position: relative;
 }
 
 .catalog__name::before {
@@ -28,14 +29,15 @@
   background-image: url(../img/icon-cat-slim.svg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: -158px;
+  position: absolute;
+  left: 0;
 }
 
 .catalog__name--cat-pro::after {
   background-image: url(../img/icon-cat-pro.svg);
   width: 61px;
   height: 50px;
-  margin-left: -187px;
+  left: -10px;
 }
 
 .catalog__description {
