@@ -4,6 +4,7 @@
   height: 305px;
   background-color: #65a93c;
   background-image: url(../img/index-background-mobile@1x.jpg);
+  background-repeat: no-repeat;
   display: inline-block;
 }
 
@@ -24,4 +25,47 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .offer::before {
+    display: none;
+  }
+
+  .offer__slogan {
+    margin-top: 0;
+    width: 410px;
+    height: 122px;
+    font-family: oswald;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+    padding-left: 120px;
+    padding-top: 0;
+  }
+
+  .offer__intro {
+    color: black;
+    text-align: left;
+    padding-left: 120px;
+  }
+
+  .offer__img {
+    display: none;
+  }
+
+  .offer::after {
+    content: " ";
+    width: 709px;
+    height: 609px;
+    background-image: url(../img/index-can-tablet@1x.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+  }
 }

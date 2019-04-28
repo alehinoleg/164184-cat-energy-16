@@ -25,21 +25,43 @@
   background-position: center;
   margin-right: 10px;
   position: absolute;
-  left: 0px;
+  left: 0;
 }
 
 .advantages__point--first::before {
-  background-image: url(../img/advantage-leaf@1x.png);
+  background-image: url("../img/advantage-leaf@1x.png");
 }
 
 .advantages__point--second::before {
-  background-image: url(../img/advantage-powder@1x.png);
+  background-image: url("../img/advantage-powder@1x.png");
 }
 
 .advantages__point--third::before {
-  background-image: url(../img/advantage-dining@1x.png);
+  background-image: url("../img/advantage-dining@1x.png");
 }
 
 .advantages__point--fourth::before {
-  background-image: url(../img/advantage-clock@1x.png);
+  background-image: url("../img/advantage-clock@1x.png");
+}
+
+@media (min-width: 768px) {
+  .advantages {
+    padding-left: 30px;
+    margin: 0;
+    width: 708px;
+  }
+
+  .advantages__name {
+    margin-left: 3px;
+  }
+
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages__point {
+    width: 280px;
+    height: 270px;
+  }
 }
