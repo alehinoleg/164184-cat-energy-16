@@ -9,11 +9,19 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-family: oswald;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
 }
 
 .main-menu__item {
   border-top: 1px solid #f2f2f2;
   padding: 10px 0;
+}
+
+.main-menu__link {
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -24,11 +32,23 @@
 
   .main-menu__list {
     flex-direction: row;
-    width: 454px;
+    width: 500px;
+    font-size: 18px;
   }
 
   .main-menu__item {
     border-top: none;
     margin-right: 38px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .main-menu__link {
+    color: white;
+  }
+
+  .main-menu__list {
+    position: absolute;
+    z-index: 2;
   }
 }
