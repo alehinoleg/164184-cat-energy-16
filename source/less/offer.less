@@ -95,33 +95,13 @@
 
 @media (min-width: 1300px) {
   .offer {
-    margin-bottom: 350px;
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 210px;
+    position: relative;
   }
 
   .offer::before {
-    display: none;
-  }
-
-  .offer::after {
-    display: none;
-  }
-
-  .offer__slogan {
-    font-size: 60px;
-    width: 450px;
-  }
-
-  .offer__slogan::before {
-    content: " ";
-    width: 552px;
-    height: 499px;
-    background-image: url(../img/index-can-desktop@1x.png);
-    position: absolute;
-    z-index: 2;
-    margin-left: 400px;
-  }
-
-  .offer__slogan::after {
     content: " ";
     width: 720px;
     height: 696px;
@@ -132,8 +112,26 @@
     background-position: 50%;
     position: absolute;
     z-index: 1;
-    margin-left: 112px;
-    top: 0;
+    top: -65px;
+    right: 0;
+  }
+
+  .offer::after {
+    content: " ";
+    width: 552px;
+    height: 499px;
+    background-image: url(../img/index-can-desktop@1x.png);
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    margin-left: -150px;
+    top: 150px;
+  }
+
+  .offer__slogan {
+    font-size: 60px;
+    width: 450px;
+    margin-top: 160px;
   }
 
   .offer__intro {
