@@ -1,36 +1,41 @@
 .centerman {
   width: 320px;
   margin: 0 auto;
-  background-color: white;
 }
 
-.centerman-offer {
-  margin: 0 auto;
-  background-color: white;
-}
-
-.centerman--page-footer {
-  background-color: #f2f2f2;
+.centerman--catalog {
+  width: 278px;
 }
 
 @media (min-width: 768px) {
   .centerman {
-    width: 768px;
+    width: 708px;
     margin: 0 auto;
-    background-color: white;
   }
 
-  .centerman-offer {
-    width: 768px;
+  .centerman--page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
 @media (min-width: 1300px) {
   .centerman {
-    width: 1400px;
+    width: 1220px;
   }
 
-  .centerman-offer {
-    width: 1400px;
+  .centerman--catalog {
+    width: 1300px;
+  }
+
+  .centerman--page-footer {
+    width: 1220px;
+  }
+
+  .centerman--offer {
+    width: 720px;
+    text-align: left;
+    display: inline-block;
   }
 }

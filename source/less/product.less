@@ -5,6 +5,8 @@
 
 .product__wrapper {
   display: flex;
+  width: 280px;
+  margin: 0 auto;
 }
 
 .product__specification {
@@ -23,12 +25,21 @@
   .product {
     width: 324px;
     background-color: #f2f2f2;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .product__wrapper {
     display: block;
     text-align: center;
+  }
+}
+
+@media (min-width: 1300px) {
+  .product {
+    width: 245px;
+  }
+
+  .product__wrapper {
+    width: 169px;
   }
 }

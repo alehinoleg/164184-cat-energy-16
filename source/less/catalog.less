@@ -5,7 +5,6 @@
 .catalog__item {
   display: block;
   background-color: #f2f2f2;
-  width: 240px;
   margin: 10px auto;
   padding: 20px;
 }
@@ -74,10 +73,8 @@
 
 @media (min-width: 768px) {
   .catalog__item {
-    width: 640px;
-    padding-left: 52px;
-    padding-bottom: 62px;
-    padding-top: 81px;
+    width: 708px;
+    padding: 0;
   }
 
   .catalog__name::before {
@@ -100,14 +97,14 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    left: 460px;
+    left: 415px;
   }
 
   .catalog__name--cat-pro::after {
     background-image: url("../img/icon-cat-pro.svg");
     width: 268px;
     height: 113px;
-    left: 380px;
+    left: 350px;
     top: 40px;
   }
 
@@ -121,8 +118,10 @@
 
 @media (min-width: 1300px) {
   .catalog {
+    width: 1220px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
   }
 
   .catalog__item {
