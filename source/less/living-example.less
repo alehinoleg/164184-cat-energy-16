@@ -19,11 +19,17 @@
 .living-example__img {
   background-image: url('../img/before-mobile@1x.png');
   background-repeat: no-repeat;
-  width: 310px;
+  width: 280px;
   height: 232px;
 }
 
 .living-example__toggle {
   display: flex;
   justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  .living-example {
+    background: linear-gradient(to top, #eaeaea 50%, #ffffff 50%);
+  }
 }
