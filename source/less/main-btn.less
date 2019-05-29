@@ -8,14 +8,35 @@
   margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: oswald;
+  font-family: oswald, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   border: 0;
 }
 
+@media (min-width: 768px) {
+  .main-btn--additional-goods {
+    width: 633px;
+  }
+
+  .main-btn--form {
+    margin: 0;
+    display: inline-block;
+  }
+}
+
 @media (min-width: 1300px) {
-  .main-btn--catalog {
+  .main-btn--product {
     width: 169px;
+  }
+
+  .main-btn--additional-goods {
+    width: 245px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .main-btn--form {
+    width: 568px;
   }
 }
