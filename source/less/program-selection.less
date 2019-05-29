@@ -23,12 +23,21 @@
   display: flex;
 }
 
+.program-selection__label {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .program-selection__text {
   padding: 10px;
   opacity: 0.5;
   border: solid 1px #cdcdcd;
   margin-top: 15px;
   margin-left: 10px;
+  width: auto;
+  flex-grow: 1;
 }
 
 .program-selection__label--radio {
@@ -48,10 +57,6 @@
 }
 
 @media (min-width: 768px) {
-  .program-selection__text {
-    width: 510px;
-  }
-
   .program-selection__radio-btn {
     border: 1px solid #e6e6e6;
   }
@@ -89,12 +94,10 @@
 @media (min-width: 1300px) {
   .program-selection__initial-data {
     width: 570px;
-    display: inline-block;
   }
 
   .program-selection__radio-btn {
     width: 570px;
-    display: inline-block;
   }
 
   .program-selection__wrapper-desktop {
